@@ -1,0 +1,116 @@
+
+body{
+    margin: 0;
+    padding:0;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.section-1{
+    background-image: url(img/top-banner.png);
+    height: 500px;
+    background-repeat: no-repeat;
+}
+.left_side{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;  
+}
+.right_side{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%; 
+}
+h1{
+    font-size: 45px;
+}
+.my-name{
+    font-size: 50px;
+    color: rgb(0, 107, 139);
+}
+.hire-me-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, rgb(10, 96, 167), rgb(45, 220, 233));
+    padding:10px 40px;
+    border-radius: 10px;
+    color:wheat;
+    font-weight:bold;  
+}
+.hire-me-button:hover{
+    background:rgb(88, 98, 233);
+}
+.first-img{
+    width: 400px;
+    height: 400px;
+}
+.section-2{
+    margin-top: 100px;
+    background-image: url("img/dream-bg.png");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.section-3{
+    margin-top: 100px;
+    background-image: url("img/exp-bg.png");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience_left_side,.experience_right_side{
+    width: 40%;
+    height: 70%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+}
+#exp1{
+    border-left: 7px solid;
+    border-image:linear-gradient(lightsalmon,tomato);
+    border-image-slice:1;
+}
+#exp2{
+    border-left: 7px solid;
+    border-image:linear-gradient(rgb(15, 29, 235),rgb(18, 175, 175));
+    border-image-slice:1;
+}
+.footer{
+    margin-top: 100px;
+    width: 100%;
+    height: 400px;
+}
+.footer_content{
+    width: 30%;
+    height:400px;
+    float: left;
+    padding-left: 2%; 
+}
+#footer_content{
+    margin-top: 30px;
+}
+.fotter_logo{
+    width: 200px;
+    height: 200px;
+    margin-top: -68px;
+}
+#my_name{
+    margin-top: -20px;
+}
+#my_status{
+    margin: -47px;
+    margin-left:0px;
+}
+.item{
+    text-decoration: none;
+    font-size: 20px;
+}
+.item:hover{
+    color: rgb(0, 107, 139);
+}
+.text_color{
+    color: darkgrey;  
+}
